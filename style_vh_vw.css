@@ -1,0 +1,34 @@
+.px{
+ border-style:solid;
+ margin-right: 800px;
+ border-color: aqua;
+}
+.rem{
+    border-style: solid;
+    margin-right: 50rem;
+    border-color: blue;
+}
+.em{
+    border-style: solid;
+    margin-right: 40em;
+    border-color: blueviolet;
+}
+.vh{
+    border-style: solid;
+    border-right: -1000vh;
+    border-color: brown;
+}
+.vw{
+    border-style: solid;
+    border-right: -1000vw;
+    border-color: chartreuse;
+}
+/* 1em = 16px (1 * 16)
+    1rem = 16px
+    1 VH = 1% of the viewport’s height (or 8px)
+
+50 VH = 50% of the viewport’s height (or 400px)
+
+1 VW = 1% of the viewport’s width (or 4.8px)
+
+50 VW = 50% of the viewport’s width (or 240px)*/
